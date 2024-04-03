@@ -1,0 +1,24 @@
+#ContePrincipalIniciarSesion{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10%;
+    background: #222427;
+}
+#ConteIniciarSesion{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    border: 2px solid rgb(220, 143, 0);
+}
+.FormularioInicio{
+    margin: 10%;
+}
+.TituloSesion{
+    text-align: center;
+    color:  rgb(220, 143, 0);
+}
+.Nombre{
+    color: white;
+}

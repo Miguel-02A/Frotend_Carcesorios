@@ -1,0 +1,91 @@
+.ContenedorNombreAdmin{
+    border-top: 1px rgb(220, 143, 0) solid;
+    border-bottom: 1px rgb(220, 143, 0) solid;
+    background: #222427;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.NombrePerfilAdmin{
+    text-align: center;
+    color: white;
+    margin: 2%;
+}
+
+.ContenedorDocumentoAdmin{
+    border-bottom: 1px rgb(220, 143, 0) solid;
+    background: #222427;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+}
+.DocumentoPerfilAdmin{
+    text-align: center;
+    color: white;
+}
+
+.ContenedorCorreoAdmin{
+    border-bottom: 1px rgb(220, 143, 0) solid;
+    background: #222427;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+}
+.CorreoPerfilAdmin{
+    text-align: center;
+    color: white;
+}
+
+.ContenedorTelefonoAdmin{
+    border-bottom: 1px rgb(220, 143, 0) solid;
+    background: #222427;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+}
+.TelefonoPerfilAdmin{
+    text-align: center;
+    color: white;
+}
+
+.ContenedorDireccionAdmin{
+    border-bottom: 1px rgb(220, 143, 0) solid;
+    background: #222427;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+}
+.DireccionPerfilAdmin{
+    text-align: center;
+    color: white;
+}
+
+.ContenedorEditarDatosAdmin{
+    margin-left: 45.5%;
+    margin-bottom: 2%;
+}
+
+#ContenedorFormularioEditarPerfil{
+    display: none;
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.FormularioEditarPerfil{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#ModificarDatosAdmin{
+    margin-left: 40%;
+}
+#BotonCerrar{
+    margin-left: 34%;
+    margin-bottom: 2%;
+}

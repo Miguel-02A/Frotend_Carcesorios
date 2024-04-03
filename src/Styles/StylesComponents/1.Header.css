@@ -1,0 +1,28 @@
+#Cabecera{
+    background: #222427;
+    width: 100%;
+    justify-content: center ;
+}
+.MenuCabecera{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Menu1 ul{
+    padding: 8px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.Menu1 ul li a{
+    padding: 10px;
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+}
+.M1{
+    border-right: 1px solid white;
+}
+.Menu1 ul li a:hover{
+    background: rgb(220, 143, 0);
+    color: black;
+    border-radius: 2px;
+}

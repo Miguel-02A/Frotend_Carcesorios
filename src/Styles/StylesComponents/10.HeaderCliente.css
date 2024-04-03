@@ -1,0 +1,50 @@
+#CabeceraCliente{
+    background: #222427;
+    padding: 1px;
+
+}
+.Menu_cabeceraCliente{
+    width: center;
+}
+.Inicio_registroCliente ul{
+    margin-left: 2%;
+    list-style: none;
+    width: 40%;
+}
+.Inicio_registroCliente ul a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+
+.NombreCliente{
+    margin-top: 15px;
+    font-size: 110%;
+}
+
+.minimenuCliente{
+    text-align: left;
+    background: #161719;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5%;
+    
+    justify-content: center;
+}
+
+.minimenuCliente li a p{
+    margin-top: 5%;
+}
+
+.minimenuCliente li a :hover{
+    color: rgb(220, 143, 0);
+    border-radius: 2px;
+}
+
+
+
+.navCliente li ul{
+    display: none;
+    min-width: 10%;
+}
+.navCliente li:hover > ul{
+    display: block;
+}

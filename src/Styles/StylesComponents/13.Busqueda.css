@@ -1,0 +1,15 @@
+.contenedor{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: end; 
+}
+.BarraNavegacion{
+    
+    width: 40%;
+}
+.caja{
+    list-style: none;
+}

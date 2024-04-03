@@ -1,0 +1,109 @@
+.ConteDescripcionProductos{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 55% 45%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: white;
+}
+.IMGDescripcionProducto{
+    margin-right: 20%;
+    background: #222427;
+    padding: 4%;
+    border:2px solid rgb(220, 143, 0);
+    border-radius: 20px;
+}
+.IMGDescripcionProducto img{
+    margin-left: 20%;
+    border-radius: 20px;
+}
+.Envio{
+    color: blue;
+}
+.Precio{
+    color: rgb(220, 143, 0);
+}
+
+
+.BotonesComprarCarrito{
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.BotonesComprarCarrito ul{
+    list-style: none;
+}
+.BotonesComprarCarrito ul a{
+    text-decoration: none;
+}
+.BotonesComprar{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+.BotonComprar a{
+    color: black;
+    background: rgb(220, 143, 0);
+    margin-left: 90%;
+    padding: 1%;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+.BotonComprar a:hover{
+    color: blue;
+    border: 2px solid blue;
+}
+.BotonesCarrito{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+.BotonCarrito a{
+    color: black;
+    background: rgb(220, 143, 0);
+    padding: 1.5%;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+.BotonCarrito a:hover{
+    color: blue;
+    border: 2px solid blue;
+}
+
+
+/* Admin */
+
+.BotonComprarAdmin a{
+    color: black;
+    background: red;
+    margin-left: 90%;
+    padding: 1%;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+.BotonComprarAdmin a:hover{
+    color: blue;
+    border: 2px solid blue;
+}
+.ConteModificar{
+    text-align: center;
+    margin-bottom: 1%;
+}
+#ContenedorEditarProducto{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+

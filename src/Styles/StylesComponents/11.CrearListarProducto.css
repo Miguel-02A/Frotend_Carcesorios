@@ -1,0 +1,46 @@
+.BotonesCrearEditar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.ContenedorCrear {
+    grid-row: 1;
+    grid-column: 1;
+    text-align: right;
+    margin-right: 1%;
+}
+
+.ContenedorEditar {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: left;
+    margin-left: 1%;
+}
+
+#ContenedorCrear {
+    display: none;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#BotonCerrarCrear{
+    margin-bottom: 1%;
+}
+
+#ContenedorEditar {
+    display: none;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#BotonCerrarEditar{
+    margin-left: 40%;
+}

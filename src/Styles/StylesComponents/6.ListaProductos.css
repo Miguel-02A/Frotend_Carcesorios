@@ -1,0 +1,30 @@
+#ListaProductos{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    height: auto;
+}
+.caja{
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #222427;
+    width: 22%;
+    line-height: 120px;
+    justify-content: space-between;
+    margin: 16px;
+    text-align: center;
+}
+.caja a {
+    list-style: none;
+    text-decoration: none;
+    color: white; 
+}
+.caja a img{
+    width: 100%;
+}
+.caja a h2{
+    font-size: larger;
+    border-top: 2px solid rgb(129, 129, 129);
+}

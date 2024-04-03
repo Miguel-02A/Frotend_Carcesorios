@@ -1,0 +1,90 @@
+.ContenidoTituloAyuda {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 200;
+    text-align: center;
+    font-size: xx-large;
+    justify-content: center;
+    color: rgb(220, 143, 0);
+}
+
+#ConteAyuda {
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.ConteInformacion {
+    margin: 2%;
+    width: 45%;
+    padding: 2%;
+    text-align: center;
+    border: 2px solid rgb(220, 143, 0);
+}
+
+.ConteInformacion h4 {
+    color: white;
+    border-bottom: 2px solid rgb(220, 143, 0);
+
+}
+
+.ConteInformacion p a {
+    color: white;
+    text-decoration: none;
+}
+
+.ConteInformacion p a:hover {
+    color: rgb(220, 143, 0);
+    text-decoration: none;
+}
+
+.ConteInformacion p a p {
+    color: white;
+}
+
+.ConteInformacion p a p:hover {
+    color: rgb(220, 143, 0);
+    text-decoration: none;
+}
+
+.bta {
+    background: #222427;
+}
+
+details {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    width: 165%;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+details>summary {
+    color: white;
+    text-align: center;
+    padding: 10px 6px;
+    width: 60%;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgb(220, 143, 0);
+    cursor: pointer;
+}
+
+details>p {
+
+    color: white;
+    box-shadow: 3px 3px 4px black;
+    margin: 2%;
+    padding: 2%;
+    width: 60%;
+    text-align: center;
+    border: 2px solid rgb(220, 143, 0);
+}
+
+details[open]>summary {
+    background-color: rgb(220, 143, 0);
+}

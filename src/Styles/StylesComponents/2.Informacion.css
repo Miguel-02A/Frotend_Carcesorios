@@ -1,0 +1,47 @@
+#Informacion{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 60% 30% 10%;
+    border-bottom: 2px solid #222427;
+}
+.Logo{
+    display: grid;
+    grid-column: 1;
+    justify-content: left;
+}
+.Logo ul{
+    list-style: none;
+}
+.Logo ul a{
+    text-decoration: none;
+}
+.Logo ul li img{
+    width: 40%;
+}
+.Tel{
+    display: grid;
+    grid-column: 2;
+    color: white;
+    font-size: 140%;
+    justify-content: right;
+    place-items: center;
+}
+.Carrito{
+    display: grid;
+    grid-column: 3;
+    place-items: center;
+    margin-top: 5px;
+}
+.Carrito ul{
+    list-style: none;
+}
+.Carrito ul a{
+    text-decoration: none;
+}
+.Carrito ul li img{
+    width: 40%;
+    background: rgb(220, 143, 0);
+    border-radius: 2px;
+}

@@ -1,0 +1,75 @@
+.ContenedorCarrito{
+    background: #222427;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 10% 35% 20% 23% 12%;
+    padding: 1%;
+    align-items: center;
+    border: 1px solid rgb(220, 143, 0);
+    border-radius: 10px;
+}
+
+.ImagenCarrito{
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 5%;
+}
+
+.ConteNombreDescrip{
+    grid-row: 1;
+    grid-column: 2;
+}
+.NomProductoCarrito{
+    color: white;
+}
+.DesProductoCarrito{
+    grid-row: 1;
+    grid-column: 1;
+    color: white;
+}
+
+.PrecioArticuloCarrito{
+    grid-row: 1;
+    grid-column: 3;
+    color: white;
+}
+
+
+.ConteCantidaEliminar{
+    grid-row: 1;
+    grid-column: 4;
+    display: grid;
+}
+#BotEliminarCarrito{
+    margin-right: 1%;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+.ConteComprarCarrito{
+    grid-row: 1;
+    grid-column: 5;
+    margin-top: 15%;
+}
+.ConteComprarCarrito nav ul {
+    list-style: none;
+}
+.ConteComprarCarrito nav ul a{
+    text-decoration: none;
+    color: white;
+    background: rgb(220, 143, 0);
+    padding: 8%;
+    border-radius: 5px;
+    margin-right: 20%;
+}
+.ConteComprarCarrito nav ul a:hover{
+    opacity: 80%;
+    text-decoration: none;
+}
